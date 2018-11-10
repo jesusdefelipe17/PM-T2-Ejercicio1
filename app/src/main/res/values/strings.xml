@@ -4,4 +4,13 @@
     <string name="opcion1">Opcion 1</string>
     <string name="opcion2">Opcion 2</string>
     <string name="opcion3">Opcion 3</string>
+    <string name="norte">N</string>
+    <string name="noroeste">NO</string>
+    <string name="oeste">O</string>
+    <string name="suroeste">SO</string>
+    <string name="sur">S</string>
+    <string name="noreste">NE</string>
+    <string name="este">E</string>
+    <string name="centro">C</string>
+    <string name="sureste">SE</string>
 </resources>
