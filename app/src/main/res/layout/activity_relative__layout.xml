@@ -30,7 +30,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/norte"
         android:layout_toStartOf="@+id/norte"
-        android:text="@string/noroeste" />
+        android:text="@string/noroeste"
+        android:onClick="noroeste"/>
 
     <Button
         android:id="@+id/oeste"
@@ -38,7 +39,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/noroeste"
-        android:text="@string/oeste" />
+        android:text="@string/oeste"
+        android:onClick="oeste"/>
 
     <Button
         android:id="@+id/suroeste"
@@ -46,7 +48,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/oeste"
         android:layout_toStartOf="@+id/norte"
-        android:text="@string/suroeste" />
+        android:text="@string/suroeste"
+        android:onClick="suroeste"/>
 
     <Button
         android:id="@+id/sur"
@@ -55,7 +58,8 @@
         android:layout_below="@+id/suroeste"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="0dp"
-        android:text="@string/sur" />
+        android:text="@string/sur"
+        android:onClick="sur"/>
 
     <Button
         android:id="@+id/noreste"
@@ -63,7 +67,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/norte"
         android:layout_toEndOf="@+id/norte"
-        android:text="@string/noroeste" />
+        android:text="@string/noreste"
+        android:onClick="noreste"/>
 
     <Button
         android:id="@+id/centro"
@@ -71,7 +76,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/noroeste"
         android:layout_centerHorizontal="true"
-        android:text="@string/centro" />
+        android:text="@string/centro"
+        android:onClick="centro"/>
 
     <Button
         android:id="@+id/este"
@@ -79,7 +85,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/noroeste"
-        android:text="@string/este" />
+        android:text="@string/este"
+        android:onClick="este"/>
 
     <Button
         android:id="@+id/sureste"
@@ -89,6 +96,7 @@
         android:layout_below="@+id/oeste"
         android:layout_marginEnd="-4dp"
         android:layout_marginTop="0dp"
-        android:text="@string/sureste" />
+        android:text="@string/sureste"
+        android:onClick="sureste"/>
 
 </RelativeLayout>
