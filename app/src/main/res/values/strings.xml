@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Proyecto_JesusDeFelipe</string>
     <string name="boton_siguiente">Siguiente</string>
+    <string name="opcion1">Opcion 1</string>
+    <string name="opcion2">Opcion 2</string>
+    <string name="opcion3">Opcion 3</string>
 </resources>
